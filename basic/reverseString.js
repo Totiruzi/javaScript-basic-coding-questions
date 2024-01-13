@@ -1,3 +1,5 @@
+// A function that reverses a string
+
 const reverseString = (strings) => {
   console.log(strings.split("").reverse().join(""));
 };
@@ -14,6 +16,8 @@ const customReverseString = (strings) => {
 
 customReverseString("Plantain");
 
+
+// A function that checks if a reversed string is the same as the original string "PALINDROME"
 // For Palindrome just compare the reversed string to the initial string
 
 const myPalindrome = (strings) => {
@@ -32,6 +36,9 @@ const myCustomPalindrome = (strings) => {
 };
 
 myCustomPalindrome("Plantain");
+
+
+// A function that reverse a number
 
 const reverseNumber = (integerNumber) => {
   return integerNumber < 0
